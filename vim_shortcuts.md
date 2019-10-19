@@ -33,3 +33,24 @@ Search
 /
 clear_search :noh
 ```
+
+Delete
+```
+delete whole word: caw
+delete word (cursor to end): cw
+delete inside: di (([{)
+```
+
+Move
+```
+Down: ctr+e
+Up: ctr+y
+```
+
+Duplicate Line
+```
+yy
+```
+
+d := delete (stay in read mode)
+c := change (change to insert mode)
