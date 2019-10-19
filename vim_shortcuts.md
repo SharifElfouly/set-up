@@ -27,3 +27,9 @@ Open Tree
 :NERDTree
 :NERDTreeClose
 ```
+
+Search
+```
+/
+clear_search :noh
+```
