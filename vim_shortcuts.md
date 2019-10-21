@@ -1,3 +1,10 @@
+Scrolling
+
+```
+down: ctr+e
+up: ctr+y
+```
+
 Copy/Paste
 
 ```
