@@ -8,3 +8,7 @@ map <C-l> <C-W>l
 " turn hybrid line numbers on
 :set number relativenumber
 :set nu rnu
+
+" color end at 80                                                                
+set textwidth=80                                                                 
+set colorcolumn=+1 
