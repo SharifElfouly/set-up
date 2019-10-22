@@ -30,11 +30,8 @@ map <C-l> <C-W>l
 set textwidth=80                                                                 
 set colorcolumn=+1 
 
-" save & run python
-:nmap ,r :w<CR>:!python3 %<CR>
-
-" yapf
-:nmap ,y :w<CR>:!yapf % -i<CR><CR>
+" yapf save and run
+:nmap ,u :!yapf %<CR><CR>:w<CR>:!python3 %<CR>
 
 " insert new empty  line
 :nmap ,o ojk
