@@ -1,6 +1,7 @@
 alias p="python3" 
 alias pi="pip3 install" 
-alias v="vim" 
+alias v="vim"
+alias c="clear"
 
 alias lsa="ls -a" 
 alias cd ...="cd ../../" 
