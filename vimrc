@@ -31,16 +31,16 @@ set textwidth=80
 set colorcolumn=+1 
 
 " save & run python
-:map ,r :w<CR>:!python3 %<CR>
+:nmap ,r :w<CR>:!python3 %<CR>
 
 " yapf
-:map ,y :w<CR>:!yapf % -i<CR><CR>
+:nmap ,y :w<CR>:!yapf % -i<CR><CR>
 
 " insert new empty  line
-:map ,o ojk
+:nmap ,o ojk
 
 " close tab
-:map ,c :close<CR>
+:nmap ,c :close<CR>
 
 " vsplit
-:map ,v :vsplit<CR>
+:nmap ,v :vsplit<CR>
