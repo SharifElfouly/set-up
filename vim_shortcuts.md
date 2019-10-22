@@ -17,6 +17,7 @@ da" (delete with ")
 
 Comment
 ```
+gc
 ctr-v down I #
 ```
 
