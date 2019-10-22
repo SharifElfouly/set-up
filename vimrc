@@ -38,3 +38,9 @@ set colorcolumn=+1
 
 " insert new empty  line
 :map ,o ojk
+
+" close tab
+:map ,c :close<CR>
+
+" vsplit
+:map ,v :vsplit<CR>
