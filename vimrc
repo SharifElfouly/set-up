@@ -12,3 +12,6 @@ map <C-l> <C-W>l
 " color end at 80                                                                
 set textwidth=80                                                                 
 set colorcolumn=+1 
+
+" save & run python
+:map ,r :w<CR>:!python3 %<CR>
