@@ -15,3 +15,6 @@ set colorcolumn=+1
 
 " save & run python
 :map ,r :w<CR>:!python3 %<CR>
+
+" yapf
+:map ,y :w<CR>:!yapf % -i<CR>l
