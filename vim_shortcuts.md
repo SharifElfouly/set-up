@@ -8,9 +8,11 @@ Sourrond
 sourround a word with ': ysiw'
 ```
 
-Delete in ()
+Delete in () or "
 ```
 dib
+di"
+da" (delete with ")
 ```
 
 Comment
