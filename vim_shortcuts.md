@@ -1,3 +1,23 @@
+Indent
+```
+>> or <<
+```
+
+Sourrond
+```
+sourround a word with ': ysiw'
+```
+
+Delete in ()
+```
+dib
+```
+
+Comment
+```
+ctr-v down I #
+```
+
 Scrolling
 
 ```
