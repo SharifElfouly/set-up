@@ -42,5 +42,6 @@ set colorcolumn=+1
 " close tab
 :nmap ,c :close<CR>
 
-" vsplit
+" splits
 :nmap ,v :vsplit<CR>
+:nmap ,h :split<CR>
