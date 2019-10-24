@@ -39,6 +39,9 @@ set colorcolumn=+1
 " insert new empty  line
 :nmap ,o ojk
 
+" search for files
+:command F Files
+
 " close tab
 :nmap ,c :close<CR>
 
