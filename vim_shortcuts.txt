@@ -1,86 +1,57 @@
-Indent
-```
+#Indent
 >> or <<
-```
 
-Sourrond
-```
+
+#Sourrond
 sourround a word with ': ysiw'
-```
 
-Delete in () or "
-```
+#Delete in () or "
 dib
 di"
 da" (delete with ")
-```
 
-Comment
-```
+#Comment
 gc
 ctr-v down I #
-```
 
-Scrolling
-
-```
+#Scrolling
 down: ctr+e
 up: ctr+y
-```
 
-Copy/Paste
-
-```
+#Copy/Paste
 copy: y
 paste: p
-```
 
-Undo/Redo
-```
+#Undo/Redo
 undo: u
 redo: ctr+r
-```
 
-Split Pane
-```
+#Split Pane
 :vsplit
 :split
-```
 
-Close Pane
-```
+#Close Pane
 :close
-```
 
-Open Tree
-```
+#Open Tree
 :NERDTree
 :NERDTreeClose
-```
 
-Search
-```
+#Search
 /
 clear_search :noh
-```
 
-Delete
-```
+#Delete
 delete whole word: caw
 delete word (cursor to end): cw
 delete inside: di (([{)
-```
 
-Move
-```
+#Move
 Down: ctr+e
 Up: ctr+y
-```
 
-Duplicate Line
-```
+#Duplicate Line
 yy
-```
 
 d := delete (stay in read mode)
 c := change (change to insert mode)
