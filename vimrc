@@ -48,3 +48,7 @@ set colorcolumn=+1
 " splits
 :nmap ,v :vsplit<CR>
 :nmap ,h :split<CR>
+
+" jump to function
+:map nf ]m
+:map nf [m
