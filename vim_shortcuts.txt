@@ -52,6 +52,3 @@ Up: ctr+y
 
 #Duplicate Line
 yy
-
-d := delete (stay in read mode)
-c := change (change to insert mode)
