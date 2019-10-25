@@ -30,6 +30,9 @@ map <C-l> <C-W>l
 set textwidth=80                                                                 
 set colorcolumn=+1 
 
+" save
+:map ,s :w<CR>
+
 " save + yapf + run
 :nmap ,x :w<CR>:!yapf % -i<CR><CR>:!python3 %<CR>
 
@@ -44,6 +47,7 @@ set colorcolumn=+1
 
 " close tab
 :nmap ,c :close<CR>
+
 
 " splits
 :nmap ,v :vsplit<CR>
