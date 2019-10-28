@@ -56,3 +56,7 @@ set colorcolumn=+1
 " jump to function
 :map nf ]m
 :map nf [m
+
+" copy mode                                                                      
+:map ,cm :set norelativenumber<CR>:set nu!<CR><CR>                               
+:map ,nm :set number relativenumber<CR>:set nu rnu<CR> 
