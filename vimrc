@@ -1,62 +1,29 @@
-" VUNDLE STUFF START
-set nocompatible            
-filetype off               
-
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-
-" fuzzyfinder                                                                    
-Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }              
-Plugin 'junegunn/fzf.vim'
-
-call vundle#end()            " required
-filetype plugin indent on    " required
-" VUNDLE STUFF END
-
-:imap jk <Esc>
-
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
- 
-" turn hybrid line numbers on
-:set number relativenumber
-:set nu rnu
-
-" color end at 80                                                                
-set textwidth=80                                                                 
-set colorcolumn=+1 
-
-" save
-:map ,s :w<CR>
-
-" save + yapf + run
-:nmap ,x :w<CR>:!yapf % -i<CR><CR>:!python3 %<CR>
-
-" save + yapf
-:nmap ,y :w<CR>:!yapf % -i<CR><CR>
-
-" insert new empty  line
-:nmap ,o ojk
-
-" search for files
-:command F Files
-
-" close tab
-:nmap ,c :close<CR>
-
-
-" splits
-:nmap ,v :vsplit<CR>
-:nmap ,h :split<CR>
-
-" jump to function
-:map nf ]m
-:map nf [m
-
-" copy mode                                                                      
-:map ,cm :set norelativenumber<CR>:set nu!<CR><CR>                               
-:map ,nm :set number relativenumber<CR>:set nu rnu<CR> 
+:imap jk <Esc>                                                                                 
+                                                                                               
+syntax on                                                                                      
+                                                                                               
+set tabstop=4 softtabstop=4                                                                    
+set smartindent                                                                                
+set nowrap                                                                                     
+set noswapfile                                                                                 
+set number relativenumber                                                                      
+set nu rnu                                                                                     
+set undodir=~/.vim/undodir                                                                     
+set undofile                                                                                   
+set incsearch                                                                                  
+                                                                                               
+set colorcolumn=80                                                                             
+highlight ColorColumn ctermbg=0 guibg=lightgrey                                                
+                                                                                               
+call plug#begin('~/.vim/plugged')                                                              
+                                                                                               
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }                                            
+Plug 'morhetz/gruvbox'                                                                         
+                                                                                               
+call plug#end()                                                                                
+                                                                                               
+set background=dark                                                                            
+colorscheme gruvbox                                                                            
+let g:gruvbox_contrast_dark='default'                                                          
+                                                                                               
+:nmap ,f :FZF<CR>   
