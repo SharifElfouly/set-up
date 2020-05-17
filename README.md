@@ -24,4 +24,5 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 - fzf (https://github.com/junegunn/fzf)
 - tmux
 - git for bash (https://github.com/magicmonty/bash-git-prompt)
+- ranger
 
