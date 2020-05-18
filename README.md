@@ -28,6 +28,9 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 # German Keyboard Remaps
 - Caps Lock --> Ctrl
-- oe --> super
-- ae --> ctrl
+- oe --> ctrl
+- ae --> super
 - ctrl left --> alt gr
+
+# Ubuntu
+switch windows: super + n
