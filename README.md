@@ -26,3 +26,8 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 - git for bash (https://github.com/magicmonty/bash-git-prompt)
 - ranger
 
+# German Keyboard Remaps
+- Caps Lock --> Ctrl
+- oe --> super
+- ae --> ctrl
+- ctrl left --> alt gr
