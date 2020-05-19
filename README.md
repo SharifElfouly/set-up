@@ -1,3 +1,7 @@
+# things to install
+- git
+- docker
+
 # mouseless keybinding
 ```
 timer: 300 
