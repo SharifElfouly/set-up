@@ -33,4 +33,4 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 - ctrl left --> alt gr
 
 # Ubuntu
-switch windows: super + n
+switch windows: super + f
