@@ -25,6 +25,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 - tmux
 - git for bash (https://github.com/magicmonty/bash-git-prompt)
 - ranger
+- ripgrep
 
 # German Keyboard Remaps
 - Caps Lock --> Ctrl
