@@ -20,6 +20,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
+Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
@@ -46,6 +47,8 @@ let g:gruvbox_contrast_dark='default'
 
 :nmap ,v :vsplit<CR> 
 :nmap ,h :split<CR> 
+:nmap ,x :x<CR> 
+:nmap ,w :w<CR> 
 
 " Switch between panes
 nnoremap <C-L> <C-W><C-L>
