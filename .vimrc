@@ -50,7 +50,7 @@ let g:gruvbox_contrast_dark='default'
 :nmap ,x :x<CR> 
 :nmap ,s :w<CR> 
 
-:nmap ,r :!python3 %<CR>
+:nmap ,r :w<CR>:!python3 %<CR>
 
 " Switch between panes
 nnoremap <C-L> <C-W><C-L>
