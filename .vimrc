@@ -48,7 +48,9 @@ let g:gruvbox_contrast_dark='default'
 :nmap ,v :vsplit<CR> 
 :nmap ,h :split<CR> 
 :nmap ,x :x<CR> 
-:nmap ,w :w<CR> 
+:nmap ,s :w<CR> 
+
+:nmap ,r :!python3 %<CR>
 
 " Switch between panes
 nnoremap <C-L> <C-W><C-L>
