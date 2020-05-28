@@ -11,10 +11,18 @@ alias vtc="vim ~/.tmux.conf"
                                                                                                                                                                                                                      
 alias desktop="cd ~/Desktop"                                                                                                                                                                                         
 alias home="cd ~"                                                                                                                                                                                                    
-alias c="clear"
-alias v="vim" 
+alias c="clear"                                                                                                                                                                                                      
+alias lsbf="find . -type f -size +500M -exec ls -l {} \;"
+
+alias v="vim"                                                                                                                                                                                                      
+alias jn="jupyter notebook"                                                                                                                                                                                                      
+alias p="python3"
+alias gpu="watch -n 1 nvidia-smi"
+
+# This will not work on your machine
+alias wifi="nload wlp3s0 -m -u M"
                                                                                                                                                                                                                      
 if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then                                                                                                                                                                
     GIT_PROMPT_ONLY_IN_REPO=1                                                                                                                                                                                        
     source $HOME/.bash-git-prompt/gitprompt.sh                                                                                                                                                                       
-fi  
+fi
