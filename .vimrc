@@ -1,9 +1,12 @@
 syntax on
+let mapleader = " "
 
+set updatetime=50
+set nohlsearch
 set tabstop=4 softtabstop=4
 set smartindent
 set nowrap
-set noswapfile
+set noswapfile 
 set number relativenumber
 set nu rnu
 set undodir=~/.vim/undodir
@@ -24,14 +27,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
-if executable('rg')
-	let g:rg_derive_root='true'
-endif
-
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 let g:ctrlp_use_caching = 0
 let g:netrw_winsize = 25
+let g:ctrlp_working_path_mode = 0
 
 set background=dark
 colorscheme gruvbox
@@ -43,14 +43,17 @@ let g:gruvbox_contrast_dark='default'
 :nmap cm :set norelativenumber<Cr>:set nonumber<Cr> 
 :nmap nm :set number relativenumber<Cr>
 
-:nmap ,n :NERDTreeToggle<CR>
+:nmap <leader>n :NERDTreeToggle<CR>
 
-:nmap ,v :vsplit<CR> 
-:nmap ,h :split<CR> 
-:nmap ,x :x<CR> 
-:nmap ,s :w<CR> 
+:nmap <leader>v :vsplit<CR> 
+:nmap <leader>h :split<CR> 
+:nmap <leader>x :x<CR> 
+:nmap <leader>s :w<CR> 
 
-:nmap ,r :w<CR>:!python3 %<CR>
+:nmap <leader>r :w<CR>:!python3 %<CR>
+
+nmap <leader>gd <Plug>(coc-definition)
+nmap <leader>gr <Plug>(coc-references)
 
 " Switch between panes
 nnoremap <C-L> <C-W><C-L>
