@@ -47,8 +47,9 @@ let g:gruvbox_contrast_dark='default'
 
 :nmap <leader>v :vsplit<CR> 
 :nmap <leader>h :split<CR> 
-:nmap <leader>x :x<CR> 
+:nmap <leader>q :x<CR> 
 :nmap <leader>s :w<CR> 
+:nmap <leader>x :w<CR>:q<CR> 
 
 :nmap <leader>r :w<CR>:!python3 %<CR>
 

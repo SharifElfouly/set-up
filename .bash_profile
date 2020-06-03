@@ -18,6 +18,8 @@ alias v="vim"
 alias jn="jupyter notebook"                                                                              
 alias jl="jupyter lab"                                                                                   
 alias p="python3"                                                                                        
+alias python3="/usr/bin/python3.6"
+alias python="/usr/bin/python2.7"
 alias gpu="watch -n 1 nvidia-smi" 
 
 # This will not work on your machine
