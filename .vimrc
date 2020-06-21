@@ -27,7 +27,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
-let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+"let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 let g:ctrlp_use_caching = 0
 let g:netrw_winsize = 25
@@ -52,6 +52,7 @@ let g:gruvbox_contrast_dark='default'
 :nmap <leader>x :w<CR>:q<CR> 
 
 :nmap <leader>r :w<CR>:!python3 %<CR>
+:nmap <leader>w :%s/\s\+$//<CR>
 
 nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gr <Plug>(coc-references)
