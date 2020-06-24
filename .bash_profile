@@ -1,9 +1,6 @@
 PS1=$(tput setaf 166)"->\W$(tput sgr0) ";
 export PS1;
 
-export PATH=/usr/local/cuda-10.0/bin:$PATH
-export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64
-
 set -o vi
 bind '"jk":vi-movement-mode'
 
@@ -16,7 +13,6 @@ alias desktop="cd ~/Desktop"
 alias home="cd ~"
 alias c="clear"
 alias lsbf="find . -type f -size +500M -exec ls -l {} \;"
-alias down="shutdown -h now"
 
 alias v="vim"
 alias jn="jupyter notebook"
@@ -33,6 +29,10 @@ alias gpu="watch -n 1 nvidia-smi"
 alias cpu="htop"
 alias ssd="df -h | grep /dev/sda1"
 alias wifi="nload wlp3s0 -m -u M"
+
+# command hardware
+alias down="shutdown -h now"
+alias lock="gnome-screensaver-command -l"
 
 alias img="echo /home/sharif/Downloads/public_place.jpg"
 
