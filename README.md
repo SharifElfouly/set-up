@@ -17,10 +17,11 @@ hide blobs: n
 ```
 
 # vim setup
-```
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
-```
+
+Insatall auto-completeme
+
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --all
 
 - plug (https://github.com/junegunn/vim-plug)
 - .bash_rc
