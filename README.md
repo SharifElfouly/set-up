@@ -39,7 +39,7 @@ python3 install.py --all
 - ctrl left --> alt gr
 
 # Ubuntu
-switch windows: super + f
-terminal: gnome-terminal: super + t
-firefox: firefox: super + r
-files: gnome-open .: super+e
+- switch windows: super + f
+- terminal: gnome-terminal: super + t
+- firefox: firefox: super + r
+- files: gnome-open .: super+e
