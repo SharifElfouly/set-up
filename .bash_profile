@@ -27,8 +27,9 @@ alias penv="python3 -m venv env"
 # access hardware
 alias gpu="watch -n 1 nvidia-smi"
 alias cpu="htop"
-alias ssd="df -h | grep /dev/sda1"
-alias wifi="nload wlp3s0 -m -u M"
+alias ssd="df -h | grep /dev/sda5"
+alias wifi="nload wlp3s0 -m -u m"
+alias hw="lshw -short"
 
 # command hardware
 alias down="shutdown -h now"
