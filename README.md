@@ -40,3 +40,6 @@ python3 install.py --all
 
 # Ubuntu
 switch windows: super + f
+terminal: gnome-terminal: super + t
+firefox: firefox: super + r
+files: gnome-open .: super+e
