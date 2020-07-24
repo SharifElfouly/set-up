@@ -1,6 +1,5 @@
 # things to install
-- git
-- docker
+- https://github.com/ckb-next/ckb-next/releases/tag/v0.4.2
 
 # mouseless keybinding
 ```
