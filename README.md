@@ -1,5 +1,10 @@
 # things to install
-- https://github.com/ckb-next/ckb-next/releases/tag/v0.4.2
+- ckb-next
+```
+sudo add-apt-repository ppa:tatokis/ckb-next
+sudo apt-get update
+sudo apt install ckb-next
+```
 
 # mouseless keybinding
 ```
