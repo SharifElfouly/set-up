@@ -7,6 +7,10 @@ snap install code --classic
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     
+add-apt-repository ppa:tatokis/ckb-next
+apt-get update
+apt install ckb-next
+    
 sh ln_dotfiles.sh
 ubuntu-drivers autoinstall
 reboot
