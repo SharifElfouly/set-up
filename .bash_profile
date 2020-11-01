@@ -17,11 +17,11 @@ alias lsbf="find . -type f -size +500M -exec ls -l {} \;"
 alias v="vim"
 alias jn="jupyter notebook"
 alias jl="jupyter lab"
-alias p="python3"
-alias python="python3"
+alias p="python3.8"
+alias python="python3.8"
 alias pip="pip3"
-alias python3="/usr/bin/python3.6"
-alias python="/usr/bin/python3.6"
+alias python3="/usr/bin/python3.8"
+alias python="/usr/bin/python3.8"
 alias penv="python3 -m venv env"
 
 # access hardware
@@ -41,3 +41,12 @@ if [ -f "$HOME/.bash-git-prompt/gitprompt.sh" ]; then
     GIT_PROMPT_ONLY_IN_REPO=1
     source $HOME/.bash-git-prompt/gitprompt.sh
 fi
+
+export PATH="$HOME/.poetry/bin:$PATH"
+
+# show current git branch
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+export PS1="\u@\h \[\e[32m\]\w \[\e[91m\]\$(parse_git_branch)\[\e[00m\]$ "
+
