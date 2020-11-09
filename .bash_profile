@@ -4,6 +4,7 @@ export PS1;
 set -o vi
 bind '"jk":vi-movement-mode'
 
+
 alias vbp="vim ~/.bash_profile"
 alias vbrc="vim ~/.bashrc"
 alias vvrc="vim ~/.vimrc"
@@ -25,7 +26,7 @@ alias python="/usr/bin/python3.8"
 alias penv="python3 -m venv env"
 
 # access hardware
-alias gpu="watch -n 1 nvidia-smi"
+alias gpu="nvtop"
 alias cpu="htop"
 alias ssd="df -h | grep /dev/sda5"
 alias wifi="nload wlp3s0 -m -u m"
