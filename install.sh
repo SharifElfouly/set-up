@@ -14,7 +14,11 @@ sudo systemctl restart docker
 # vim stuff
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# jupyter
+jupyter labextension install @aquirdturtle/collapsible_headings
     
+# keyboard
 add-apt-repository ppa:tatokis/ckb-next
 apt-get update
 apt install ckb-next
