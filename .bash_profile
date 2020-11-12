@@ -34,7 +34,9 @@ alias hw="lshw -short"
 
 # command hardware
 alias down="shutdown -h now"
+alias d="shutdown -h now"
 alias lock="gnome-screensaver-command -l"
+alias l="gnome-screensaver-command -l"
 
 alias img="echo /home/sharif/Downloads/public_place.jpg"
 
