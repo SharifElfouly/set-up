@@ -13,6 +13,8 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set wrap
+set autoread
+set hlsearch
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -24,6 +26,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'morhetz/gruvbox'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
+Plug 'tomlion/vim-solidity'
 
 call plug#end()
 
