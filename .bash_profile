@@ -31,6 +31,7 @@ alias cpu="htop"
 alias ssd="df -h | grep /dev/sda5"
 alias wifi="nload wlp3s0 -m -u m"
 alias hw="lshw -short"
+alias ports="sudo lsof -i -P -n | grep python"
 
 # command hardware
 alias down="shutdown -h now"
