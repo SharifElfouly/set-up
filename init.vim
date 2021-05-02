@@ -11,11 +11,13 @@ autocmd FileType javascriptreact setlocal shiftwidth=2 tabstop=2
 
 set hidden
 "set autoindent
+set noswapfile
 set wrap
 set number relativenumber
 set nu rnu
 set scrolloff=8
 set signcolumn=yes
+set clipboard+=unnamedplus
 
 call plug#begin()
 Plug 'ctrlpvim/ctrlp.vim'
@@ -71,3 +73,6 @@ nmap <leader>gr <Plug>(coc-references)
 :nmap <leader>q :x<CR> 
 :nmap <leader>s :w<CR> 
 :nmap <leader>x :w<CR>:q<CR>
+
+" resize 
+:nmap <leader>r :vertical resize +10<CR>
