@@ -47,3 +47,6 @@ python3 install.py --all
 - terminal: gnome-terminal: super + t
 - firefox: firefox: super + r
 - files: gnome-open .: super+e
+
+# kinesis
+- left alt swapped to Left Win
