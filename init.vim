@@ -7,10 +7,8 @@ let mapleader = " "
 set tabstop=2
 set shiftwidth=2
 set expandtab
-autocmd FileType javascriptreact setlocal shiftwidth=2 tabstop=2
 
 set hidden
-"set autoindent
 set noswapfile
 set wrap
 set number relativenumber
@@ -18,6 +16,12 @@ set nu rnu
 set scrolloff=8
 set signcolumn=yes
 set clipboard+=unnamedplus
+set ai
+set number
+set hlsearch
+set ruler
+set modifiable
+highlight Comment ctermfg=green
 
 call plug#begin()
 Plug 'ctrlpvim/ctrlp.vim'
@@ -27,6 +31,10 @@ Plug 'preservim/nerdtree'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'Yggdroot/indentLine'
 Plug 'mattn/emmet-vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'jremmen/vim-ripgrep'
+Plug 'tpope/vim-commentary'
 
 " git stuff
 Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -43,7 +51,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
 
 " nerdtree
-:nmap <leader>n :NERDTreeToggle<CR>
+:nmap <leader>t :NERDTreeToggle<CR>
 
 " gruvbox
 colorscheme gruvbox
@@ -69,10 +77,17 @@ nmap <leader>gr <Plug>(coc-references)
 
 " save, quit, exit
 :nmap <leader>v :vsplit<CR> 
-:nmap <leader>h :split<CR> 
+:nmap <leader>c :split<CR> 
 :nmap <leader>q :x<CR> 
 :nmap <leader>s :w<CR> 
 :nmap <leader>x :w<CR>:q<CR>
 
+" search
+:nmap <leader>f :Rg<space> 
+
 " resize 
 :nmap <leader>r :vertical resize +10<CR>
+:nmap <leader>e :res +5<CR>
+
+" remove search highlight 
+:nmap <leader>a :noh<CR>
