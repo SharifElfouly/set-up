@@ -1,3 +1,5 @@
+# cd ~/Documents/tokenize/tb/
+# source ~/Documents/tokenize/tb/env.sh
 
 set -o vi
 bind '"jk":vi-movement-mode'
@@ -10,6 +12,7 @@ alias ls="ls -l --color"
 alias diff="git diff"
 alias status="git status"
 alias branches="git branch -a"
+alias checkout="git checkout -b"
 alias main="git checkout main"
 alias pull="git pull"
 alias add="git add ."
