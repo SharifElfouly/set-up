@@ -1,3 +1,5 @@
+// :CocInstall coc-prettier
+
 {
     "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
