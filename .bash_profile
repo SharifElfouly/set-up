@@ -14,10 +14,12 @@ alias status="git status"
 alias branches="git branch -a"
 alias checkout="git checkout -b"
 alias main="git checkout main"
+alias dev="git switch dev"
 alias pull="git pull"
 alias add="git add ."
 alias commit="git commit -m"
 alias push="git push"
+alias stash="git stash"
 
 # configs
 alias vbp="vim ~/.bash_profile"
@@ -47,11 +49,12 @@ alias wifi="nload wlp3s0 -m -u m"
 alias hw="lshw -short"
 alias ports="sudo lsof -i -P -n | grep python"
 
-# system
+# system (ubnutu specific)
 alias down="shutdown -h now"
-alias d="d"
+alias d="shutdown -h now"
 alias lock="gnome-screensaver-command -l"
 alias l="lock"
+alias open="xdg-open"
 
 # docker 
 alias dils="docker image ls"
