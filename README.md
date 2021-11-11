@@ -6,6 +6,10 @@ sudo apt-get update
 sudo apt install ckb-next
 ```
 
+# things to install
+
+- put init.vim into ~/.config/nvim
+
 # mouseless keybinding
 ```
 timer: 300 
