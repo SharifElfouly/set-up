@@ -49,4 +49,6 @@ python3 install.py --all
 - files: gnome-open .: super+e
 
 # kinesis
-- left alt swapped to Left Win
+with tweaks:
+- overivew shortcut: Right Super
+- Alt is swapped with with Win
