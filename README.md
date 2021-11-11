@@ -50,5 +50,5 @@ python3 install.py --all
 
 # kinesis
 with tweaks:
-- overivew shortcut: Right Super
-- Alt is swapped with with Win
+- overivew shortcut: Left Super
+- Left Alt is swapped with with Left Win
