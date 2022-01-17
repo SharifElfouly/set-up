@@ -39,6 +39,7 @@ python3 install.py --all
 - git for bash (https://github.com/magicmonty/bash-git-prompt)
 - ranger
 - ripgrep
+- :CocInstall coc-pyright
 
 # German Keyboard Remaps
 - Caps Lock --> Ctrl
