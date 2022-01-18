@@ -41,6 +41,7 @@ python3 install.py --all
 - ranger
 - ripgrep
 - :CocInstall coc-pyright
+- :CocInstall coc-prettier
 
 # German Keyboard Remaps
 - Caps Lock --> Ctrl
