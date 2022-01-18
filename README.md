@@ -9,6 +9,7 @@ sudo apt install ckb-next
 # things to install
 
 - put init.vim into ~/.config/nvim
+- ripgrep: https://lindevs.com/install-ripgrep-on-ubuntu/
 
 # mouseless keybinding
 ```
