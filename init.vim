@@ -85,6 +85,9 @@ nmap <leader>gr <Plug>(coc-references)
 " search
 :nmap <leader>f :Rg<space> 
 
+" insert console.log() on new line
+:nmap <leader>l oconsole.log()jki
+
 " resize 
 :nmap <leader>r :vertical resize +10<CR>
 :nmap <leader>e :res +5<CR>
