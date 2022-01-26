@@ -94,3 +94,8 @@ nmap <leader>gr <Plug>(coc-references)
 
 " remove search highlight 
 :nmap <leader>a :noh<CR>
+
+" highlight warning
+hi! important ctermbg=red guibg=red
+:match important /warning/
+
