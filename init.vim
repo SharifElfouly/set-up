@@ -46,6 +46,10 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'pangloss/vim-javascript'
 
+" react auto import
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
+
 " coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
