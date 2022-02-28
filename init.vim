@@ -52,6 +52,8 @@ Plug 'kristijanhusak/vim-js-file-import', {'do': 'npm install'}
 
 " coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'SharifElfouly/vim-printer'
 call plug#end()
 
 " nerdtree
