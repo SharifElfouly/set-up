@@ -45,6 +45,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'pangloss/vim-javascript'
+Plug 'tomlion/vim-solidity'
 
 " react auto import
 Plug 'ludovicchabant/vim-gutentags'
